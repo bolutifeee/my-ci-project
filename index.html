@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>my-ci-project</title>
+  <style>
+    body { font-family: system-ui, sans-serif; text-align: center; padding: 4rem; }
+    h1 { color: #0969da; }
+    code { background: #f6f8fa; padding: 0.2rem 0.4rem; border-radius: 4px; }
+  </style>
+</head>
+<body>
+  <h1>CI/CD Pipeline Live 🚀</h1>
+  <p>Deployed automatically by GitHub Actions.</p>
+  <p>Function check: <code>add(1, 2) = <span id="result"></span></code></p>
+  <script>
+    function add(a, b) { return a + b; }
+    document.getElementById('result').textContent = add(1, 2);
+  </script>
+</body>
+</html>
